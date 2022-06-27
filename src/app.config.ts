@@ -1,9 +1,10 @@
 export default defineAppConfig({
-    pages: [
-        'pages/index/index',
-        'pages/home/index',
-        'pages/cart/index',
-    ],
+  pages: [
+    'pages/index/index',
+    'pages/home/index',
+    'pages/cart/index',
+  ],
+ 
     tabBar: {
         list: [{
             pagePath: 'pages/index/index',
@@ -37,5 +38,3 @@ export default defineAppConfig({
         navigationBarTextStyle: 'black'
     }
 })
-
-
