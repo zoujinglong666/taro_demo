@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+    "types": [
+      "@tarojs/components/vue3"
+    ],
     "target": "es2017",
     "module": "commonjs",
     "removeComments": false,
@@ -22,6 +25,9 @@
       "node_modules/@types"
     ]
   },
-  "include": ["./src", "global.d.ts"],
+  "include": [
+    "./src",
+    "global.d.ts"
+  ],
   "compileOnSave": false
 }
